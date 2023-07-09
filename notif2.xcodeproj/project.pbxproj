@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F73F730EBCB460E054F204F /* SelectExistingGoalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F73FF1787436ABFA9D61275 /* SelectExistingGoalState.swift */; };
+		C640EF2729D697EC00BC9C39 /* notif2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640EF2629D697EC00BC9C39 /* notif2.swift */; };
+		C640EF2929D697EC00BC9C39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640EF2829D697EC00BC9C39 /* ContentView.swift */; };
+		C640EF2B29D697ED00BC9C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C640EF2A29D697ED00BC9C39 /* Assets.xcassets */; };
+		C640EF2E29D697ED00BC9C39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C640EF2D29D697ED00BC9C39 /* Preview Assets.xcassets */; };
+		C640EF3629D6985600BC9C39 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640EF3529D6985600BC9C39 /* NotificationManager.swift */; };
+		C640EF3829D69A4000BC9C39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640EF3729D69A4000BC9C39 /* AppDelegate.swift */; };
+		C6A011162A14A20600A04D47 /* Vapor in Frameworks */ = {isa = PBXBuildFile; productRef = C6A011152A14A20600A04D47 /* Vapor */; };
+		C6A011182A14A2EA00A04D47 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A011172A14A2EA00A04D47 /* Server.swift */; };
+		C6A0111A2A23259400A04D47 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A011192A23259400A04D47 /* File.swift */; };
+		C6F0D7B529DBECEF00217ED1 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = C6F0D7B429DBECEF00217ED1 /* Swifter */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F73FF1787436ABFA9D61275 /* SelectExistingGoalState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectExistingGoalState.swift; sourceTree = "<group>"; };
+		C640EF2329D697EC00BC9C39 /* notif2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notif2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C640EF2629D697EC00BC9C39 /* notif2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notif2.swift; sourceTree = "<group>"; };
+		C640EF2829D697EC00BC9C39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C640EF2A29D697ED00BC9C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C640EF2D29D697ED00BC9C39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C640EF2F29D697ED00BC9C39 /* notif2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = notif2.entitlements; sourceTree = "<group>"; };
+		C640EF3529D6985600BC9C39 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		C640EF3729D69A4000BC9C39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C640EF3B29D6AA5F00BC9C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C6A011172A14A2EA00A04D47 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		C6A011192A23259400A04D47 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C640EF2029D697EC00BC9C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F0D7B529DBECEF00217ED1 /* Swifter in Frameworks */,
+				C6A011162A14A20600A04D47 /* Vapor in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C640EF1A29D697EC00BC9C39 = {
+			isa = PBXGroup;
+			children = (
+				C6A011172A14A2EA00A04D47 /* Server.swift */,
+				C6A011192A23259400A04D47 /* File.swift */,
+				C640EF3729D69A4000BC9C39 /* AppDelegate.swift */,
+				C640EF2529D697EC00BC9C39 /* notif2 */,
+				C640EF2429D697EC00BC9C39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C640EF2429D697EC00BC9C39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C640EF2329D697EC00BC9C39 /* notif2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C640EF2529D697EC00BC9C39 /* notif2 */ = {
+			isa = PBXGroup;
+			children = (
+				C640EF3B29D6AA5F00BC9C39 /* Info.plist */,
+				C640EF2629D697EC00BC9C39 /* notif2.swift */,
+				C640EF2829D697EC00BC9C39 /* ContentView.swift */,
+				C640EF2A29D697ED00BC9C39 /* Assets.xcassets */,
+				C640EF2F29D697ED00BC9C39 /* notif2.entitlements */,
+				C640EF2C29D697ED00BC9C39 /* Preview Content */,
+				C640EF3529D6985600BC9C39 /* NotificationManager.swift */,
+				5F73FF1787436ABFA9D61275 /* SelectExistingGoalState.swift */,
+			);
+			path = notif2;
+			sourceTree = "<group>";
+		};
+		C640EF2C29D697ED00BC9C39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C640EF2D29D697ED00BC9C39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C640EF2229D697EC00BC9C39 /* notif2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C640EF3229D697ED00BC9C39 /* Build configuration list for PBXNativeTarget "notif2" */;
+			buildPhases = (
+				C640EF1F29D697EC00BC9C39 /* Sources */,
+				C640EF2029D697EC00BC9C39 /* Frameworks */,
+				C640EF2129D697EC00BC9C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = notif2;
+			packageProductDependencies = (
+				C6F0D7B429DBECEF00217ED1 /* Swifter */,
+				C6A011152A14A20600A04D47 /* Vapor */,
+			);
+			productName = notif2;
+			productReference = C640EF2329D697EC00BC9C39 /* notif2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C640EF1B29D697EC00BC9C39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C640EF2229D697EC00BC9C39 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C640EF1E29D697EC00BC9C39 /* Build configuration list for PBXProject "notif2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C640EF1A29D697EC00BC9C39;
+			packageReferences = (
+				C6F0D7B329DBECEF00217ED1 /* XCRemoteSwiftPackageReference "swifter" */,
+				C6A011142A14A20600A04D47 /* XCRemoteSwiftPackageReference "vapor" */,
+			);
+			productRefGroup = C640EF2429D697EC00BC9C39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C640EF2229D697EC00BC9C39 /* notif2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C640EF2129D697EC00BC9C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C640EF2E29D697ED00BC9C39 /* Preview Assets.xcassets in Resources */,
+				C640EF2B29D697ED00BC9C39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C640EF1F29D697EC00BC9C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C640EF3829D69A4000BC9C39 /* AppDelegate.swift in Sources */,
+				C640EF3629D6985600BC9C39 /* NotificationManager.swift in Sources */,
+				C6A0111A2A23259400A04D47 /* File.swift in Sources */,
+				C640EF2929D697EC00BC9C39 /* ContentView.swift in Sources */,
+				C640EF2729D697EC00BC9C39 /* notif2.swift in Sources */,
+				C6A011182A14A2EA00A04D47 /* Server.swift in Sources */,
+				5F73F730EBCB460E054F204F /* SelectExistingGoalState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C640EF3029D697ED00BC9C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C640EF3129D697ED00BC9C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C640EF3329D697ED00BC9C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = notif2/notif2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"notif2/Preview Content\"";
+				DEVELOPMENT_TEAM = 36A6HNBFTF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = notif2/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pipa.notif2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C640EF3429D697ED00BC9C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = notif2/notif2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"notif2/Preview Content\"";
+				DEVELOPMENT_TEAM = 36A6HNBFTF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = notif2/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pipa.notif2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C640EF1E29D697EC00BC9C39 /* Build configuration list for PBXProject "notif2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C640EF3029D697ED00BC9C39 /* Debug */,
+				C640EF3129D697ED00BC9C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C640EF3229D697ED00BC9C39 /* Build configuration list for PBXNativeTarget "notif2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C640EF3329D697ED00BC9C39 /* Debug */,
+				C640EF3429D697ED00BC9C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C6A011142A14A20600A04D47 /* XCRemoteSwiftPackageReference "vapor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/vapor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		C6F0D7B329DBECEF00217ED1 /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6A011152A14A20600A04D47 /* Vapor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6A011142A14A20600A04D47 /* XCRemoteSwiftPackageReference "vapor" */;
+			productName = Vapor;
+		};
+		C6F0D7B429DBECEF00217ED1 /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6F0D7B329DBECEF00217ED1 /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C640EF1B29D697EC00BC9C39 /* Project object */;
+}
